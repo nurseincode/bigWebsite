@@ -1,0 +1,19 @@
+:root {
+/* CSS HEX */
+--rich-black: #0d1321ff;
+--prussian-blue: #1d2d44ff;
+--paynes-gray: #3e5c76ff;
+--silver-lake-blue: #748cabff;
+--eggshell: #f0ebd8ff;
+}
+
+h1 {
+    color: var(--rich-black);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
