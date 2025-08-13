@@ -7,13 +7,54 @@
 --eggshell: #f0ebd8ff;
 }
 
-h1 {
-    color: var(--rich-black);
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--eggshell);
+}
+
+header, footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--silver-lake-blue);
+}
+
+header {
+    min-height: 12vh;
+}
+
+header > p {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+nav {
+    font-size: smaller;
+}
+
+main {
+    min-height: 83vh;
+    padding: 1rem;
+}
+
+main > img:nth-of-type(1) {
+    width: 100%;
+}
+
+h1, p {
+    margin: 0.5rem 0;
+}
+
+footer {
+    min-height: 5vh;
 }
 
